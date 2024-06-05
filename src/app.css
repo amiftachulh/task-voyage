@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 96%);
+  --foreground: hsl(0, 0%, 5%);
+  --primary: hsl(244, 44%, 36%);
+  --primary-foreground: hsl(244, 44%, 96%);
+  --surface: hsl(0, 0%, 100%);
+  --surface-foreground: hsl(0, 0%, 5%);
+  --muted: hsl(210 40% 96.1%);
+  --muted-foreground: hsl(215.4 16.3% 46.9%);
+  --input: hsl(240 5.9% 85%);
+}
+
+body {
+  @apply bg-background text-foreground;
+}
